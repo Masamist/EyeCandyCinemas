@@ -1,0 +1,17 @@
+/* Privacy */
+
+.privacy_container{
+    padding: 100px 120px 100px 120px;
+}
+.p_title{
+    font-size: 28px;
+    padding-bottom: 40px;
+
+}
+.p_para{
+    font-size: 15px;
+    width:60%;
+    text-align: left;
+    line-height: 25px;
+
+}

@@ -1,0 +1,67 @@
+.m_content{
+    width:100%;
+    margin: 50px 100px 40px 100px
+}
+.m_title{
+    font-size: 28px;
+    color: #e8336c;
+    padding-bottom: 15px;
+
+}
+.m_title .now{
+    font-size: 18px;
+    color: #343435;
+}
+.m_title .comming{
+    font-size: 16px;
+    color: #808080;
+    text-decoration: none;
+}
+.m_title .comming a{
+    color: #808080;
+    text-decoration: none;
+}
+.movie_container{
+    width:100%;
+    display:block;
+    overflow: hidden;
+}
+
+/*Individual movie list*/
+.m_list{
+    width: 190px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+.m_list a:hover{
+    opacity: 0.5;
+}
+.m_list img{
+    width: 190px;
+    height: 280px;
+    float: left;
+    display: block;
+}
+
+.movie_info{
+    margin-top: 10px;
+    float: left;   
+}
+
+.movie_info .title{
+    font-size: 20px;
+    color: #343435;
+}
+
+.movie_info .year_time{
+    font-size: 12px;
+    color: #808080;
+    padding-top: 4px;
+}
+
+
+  
+  
+  

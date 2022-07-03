@@ -1,0 +1,193 @@
+.schedule_container{
+    margin: 70px 0px 20px 100px;
+    width: 45%;
+    height: 110px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+.Schedule_place{
+    color: #e8336c;
+    font-size: 28px;
+}
+.schedule_now{
+    font-size: 20px;
+    color: #313333;
+    margin-top: 30px;
+
+}
+.schedule_now a{
+    font-size: 18px;
+    color: #313333;
+    text-decoration: none;
+}
+.schedule_now a:hover{
+    color: #e8336c;
+    border: none;
+}
+/*Right shedule*/
+.time_slot{
+    width:40%;
+    height:110px;
+    margin-top: 70px;
+    margin-right: 100px;
+    color: white;
+    float: right;
+    background-color: #ffb3cc;
+    display: block;
+    overflow: hidden;
+
+}
+.timebar{
+    width: 100%;
+    height: 35px;
+    padding-top: 10px;
+    padding-left:15px;
+    font-size: 13px;
+    background-color: #313333;
+    display: block;
+    float: left;
+}
+.time_sbox{
+    margin: 0px;
+    padding-top: 10px;
+    width: 75px;
+    height: 75px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ffb3cc;
+    display: block;
+    float: left;
+}
+.time_sbox_b{
+    margin: 0px;
+    width: 75px;
+    height: 75px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ffb3cc;
+    border: none;
+    color: white;
+    display: block;
+    float: left;
+}
+.time_sbox_b:hover{
+    color: #e8336c;
+    background-color: #ffdee9;
+}
+.time_sbox_c{
+    margin-top: 35px;
+    margin-left: 34%;
+    width: 75px;
+    height: 75px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ffb3cc;
+    border: none;
+    color: white;
+    display: block;
+    position: absolute;
+}
+.time_sbox_c:hover{
+    color: #e8336c;
+    border: none;
+}
+
+.schedule_box{
+    width: 100%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+/* Left container*/
+.shedule_movie{
+    width:50%;
+    float:left;
+    position: relative;
+    overflow: hidden;
+}
+.shedule_movie img{
+    float: left;
+    margin-left: 100px;
+}
+.shedule_movie img:hover{
+    opacity:0.5;
+}
+.schedule_info{
+    width:300px;
+    float: left;
+    text-align: left;
+    margin-left: 50px;
+    overflow: hidden;
+    display: block;
+    
+}
+.schedule_info .title{
+    font-size: 25px;
+    color: #343435;
+    
+}
+.schedule_info .year_time{
+    font-size: 14px;
+    color: #808080;
+}
+.schedule_info .synopsis{
+    font-size: 16px;
+    line-height: 24px;
+    color: #343435;
+    padding-top: 10px;
+    overflow:hidden;
+    display: block;
+}
+/* Right container*/
+.time_container{
+    width: 40%;
+    height: 300px;
+    margin-right: 100px;
+    float: right;
+    text-align: left;
+    display: block;
+}
+.time_container .time_day{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+.time_container span{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: left;
+    
+}
+.movie_time{
+    margin-top: 10px;
+    float: left;
+    text-align: left;
+}
+
+
+.movie_button{
+    width: 100px;
+    height: auto;
+    background-color:white;  
+    border: 1px solid #e8336c;
+    padding:10px;
+    text-align: center;
+    font-size: 18px;
+    color: #e8336c;
+    border-radius: 2px;
+}
+.movie_button:hover{
+    background-color: #e8336c;
+    color: white;
+    cursor: pointer;
+}
+.border_line{
+    border:1px solid #cccccc;
+    stroke-linecap: butt;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+
+}

@@ -1,0 +1,45 @@
+
+.cinema_info_container
+{
+    margin: 100px;
+    padding: 50px;
+    overflow: hidden;
+    background-color: rgb(238, 237, 237);
+    border-radius: 5px;
+
+}
+.cinema_info{
+    width:50%;
+    margin-left: 10px;
+    float: left;
+}
+.cinema_image{
+    width:100%;
+    margin-bottom: 15px;
+}
+.cinema_info_container span{
+    font-size: 30px;
+}
+.cinema_info_container p{
+    font-size: 15px;
+    line-height: 22px;
+}
+.cinema_info_detail
+{
+    padding-top: 15px;
+    font-size: 15px;
+}
+.map_container
+{
+    margin-left: 70px;
+    width:43%;
+    height:550px;
+    float: left;
+    overflow: hidden;
+}
+.map_container img
+{
+    width:700px;
+    height:auto;
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Eye Candy Cinemas</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/EyeCandyCinemas_main.css">
+    <script src="https://kit.fontawesome.com/99b5199ed8.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="Images/Cinema_symbol.jpg" sizes="16x16">
+</head>
+
+<body>
+    <!--Header -->
+    <div class="header">
+        <div class="logo"><img src="Images/logo_top.jpg" alt="Eye Candy Cinemas"></div>
+
+        <!--Menu bar-->
+        <div class="menue_bar">
+            <div class="menu">
+                <a class="now" href="#">Home</a>
+                <a href="EyeCandyCinemas_cinemas.html">Cinemas</a>
+                <a href="EyeCandyCinemas_movie.html">Movies</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Schedule</button>
+                    <div class="dropdown_content">
+                        <a href="EyeCandyCinemas_schedule_akl.html">Auckland</a>
+                        <a href="#">Wellington</a>
+                    </div>
+                </div>
+
+                <div class="icon"><i class="fa fa-search"></i></div>
+                <div class="icon"><i class="fa fa-twitter"></i></div>
+                <div class="icon"><i class="fa fa-facebook"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News Slide Show-->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="Images/slide_movie01.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="Images/slide_home03.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="Images/slide_home02.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!--The dos/circles-->
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <script src="JS/slideShow.js"></script>
+
+
+    <!-- Movie display-->
+    <div class="home_movie_container">
+        <Div class="home_movie_title">Movies Now Showing <span style="font-size: 24px; color: gray">| Coming soon</span>
+        </div>
+
+        <div class="home_movie">
+            <div class="n_list"><img src="Images/img_movie1.jpg" alt="I CARE A LOT."></div>
+            <div class="n_list"><img src="Images/img_movie2.jpg" alt="NOMADLAND" style="border-style:ridge"></div>
+            <div class="n_list"><img src="Images/img_movie3.png" alt="PENGUIN BLOOM"></div>
+            <div class="n_list"><img src="Images/img_movie5.jpg" alt="Falling"></div>
+        </div>
+        <a href="EyeCandyCinemas_movie.html"><button class="button_movie">Search Movie</button></a>
+    </div>
+
+    <!-- Footer-->
+    <div class="footer">
+        <img src="Images/logo_bottom.jpg" alt="Eye Candy Cinemas">
+        <span class="footer_nav"><b>Eye Candy Cinemas Auckland</b><br>67 Symonds Street,<br> Grafton,
+            Auckland<br>09-534-1276</span>
+        <span class="footer_nav"><b>Eye Candy Cinemas Wellington</b><br>110 Lambton Quay,<br> Wellington Central,
+            Wellington<br>04-554-9298</span>
+        <span class="footer_nav"><b>About Us</b><br>
+            <a href="EyeCandyCinemas_form.html">Contact Us</a><br>
+            <a href="EyeCandyCinemas_privacy.html">Privacy Policy</a><br>
+            <a href="#">Terms and conditions</a>
+        </span>
+        <div class="footer_nav_icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+        <div class="footer_nav_icon"><i class="fa fa-facebook"></i></div>
+
+    </div>
+
+</body>
+
+</html>
