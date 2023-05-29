@@ -1,7 +1,5 @@
 # Eye Candy Cinemas Web Project
-![Eye Candy Cinema](https://github.com/Masamist/EyeCandyCinemas/blob/main/eyeCandyCinema.png)
-<img src="https://github.com/Masamist/EyeCandyCinemas/blob/main/eyeCandyCinema.png" width="500" height="auto" class='border' />
-.border { border: 1px solid #ccc }
+<img src="https://github.com/Masamist/EyeCandyCinemas/blob/main/eyeCandyCinema.png" width="500" height="auto" />
 
 ## Introduction
 IT5012 Projects Project2 Eye Candy Cinema Website.
